@@ -20,7 +20,13 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
-  }
+  },
+    
+imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/853250/college-building-clipart-xl.png",
+}
+    
 });
 
 // Export the campus model
