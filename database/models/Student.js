@@ -15,7 +15,21 @@ const Student = db.define("student", {
   lastname: {
     type: Sequelize.STRING,
     allowNull: false
-  }
+  },
+    
+email: {
+    type: Sequelize.STRING,
+    allowNull: false
+},
+      
+  imageUrl: {
+      type: Sequelize.STRING,
+      defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png",
+  },
+    
+gpa: {
+    type: Sequelize.DECIMAL
+}
 });
 
 // Export the student model
