@@ -24,8 +24,7 @@ email: {
       
   imageUrl: {
       type: Sequelize.STRING,
-      defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png",
-      allowNull: false // so that our default gets set
+      defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png"
     },
     
 gpa: {
