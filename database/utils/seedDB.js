@@ -31,6 +31,7 @@ const seedDB = async () => {
 		firstname: "Joe",
       lastname: "Smith",
         email: "joe@smith.com",
+        imageUrl: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127641&FileExtension=png"
 	});
 	// Create a new student for a campus
 	const dummy_student2 = await Student.create({
