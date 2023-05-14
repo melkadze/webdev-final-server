@@ -24,11 +24,15 @@ email: {
       
   imageUrl: {
       type: Sequelize.STRING,
-      defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png",
-  },
+      defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png"
+    },
     
 gpa: {
-    type: Sequelize.DECIMAL
+    type: Sequelize.DECIMAL,
+    validate: {
+        min: 0,
+        max: 4
+    }
 }
 });
 
