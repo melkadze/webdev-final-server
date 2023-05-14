@@ -37,6 +37,7 @@ const seedDB = async () => {
 		firstname: "Mary",
       lastname: "Johnson",
         email: "mary@johnson.com",
+        gpa: 3.5,
 	});
 
 	// Add students to campuses
