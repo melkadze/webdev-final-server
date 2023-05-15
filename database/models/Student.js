@@ -17,22 +17,22 @@ const Student = db.define("student", {
     allowNull: false
   },
     
-email: {
-    type: Sequelize.STRING,
-    allowNull: false
-},
+  email: {
+      type: Sequelize.STRING,
+      allowNull: false
+  },
       
   imageUrl: {
       type: Sequelize.STRING,
       defaultValue: "https://www.onlinelabels.com/API/Clipart/DownloadClipart?ClipArtID=127640&FileExtension=png"
     },
     
-gpa: {
+  gpa: {
     type: Sequelize.DECIMAL,
     validate: {
         min: 0,
         max: 4
-    }
+  }
 }
 });
 
