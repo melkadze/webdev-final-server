@@ -22,10 +22,10 @@ const Campus = db.define("campus", {
     type: Sequelize.STRING,
   },
     
-imageUrl: {
-    type: Sequelize.STRING,
-    defaultValue: "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/853250/college-building-clipart-xl.png",
-}
+  imageUrl: {
+      type: Sequelize.STRING,
+      defaultValue: "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/853250/college-building-clipart-xl.png",
+  }
     
 });
 
